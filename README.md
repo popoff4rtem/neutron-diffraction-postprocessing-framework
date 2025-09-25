@@ -37,10 +37,10 @@ The framework integrates modern convolutional neural network architectures to ad
 - Separates diffraction peaks, background, and direct beam  
 - Enables targeted noise reduction
 
-![UNet](./JAC_IMGS/Slide5.png)
+![UNet](./JAC_IMGS/Slide4.png)
 *Figure 2. C graphite diffraction Semantic Segmentation. (a) - Original diffraction; (b) - Segmentation map (where the direct beam, background, and diffraction pattern are separated.)
 
-![UNet](./JAC_IMGS/Slide6.png)
+![UNet](./JAC_IMGS/Slide5.png)
 *Figure 3. C graphite diffraction binary segmentation. (a) - Original diffraction; (b) - Probability distribution for diffraction class derived from semantic segmentation; (c) - diffraction after filtering.
 
 ### 🔹 SuperResolution CNN
@@ -48,7 +48,7 @@ The framework integrates modern convolutional neural network architectures to ad
 - Reduces peak broadening in reciprocal space  
 - Trained on pseudo-data generated from cleaned patterns
 
-![SuperResolution CNN](./JAC_IMGS/Slide8.png)
+![SuperResolution CNN](./JAC_IMGS/Slide7.png)
 *Figure 4. Intensity enhancement visualization. Left panel (a) shows the original 480×250 pixel image; right panel (b) displays the upscaled result (960×500 pixels).
 
 ### 🔹 Conditional GAN (cGAN)
@@ -65,9 +65,6 @@ The framework integrates modern convolutional neural network architectures to ad
 
 ## ⚙️ Processing Pipeline
 
-![Processing Pipeline](./JAC_IMGS/Slide4.png)
-*Figure 6. Visualization of the sequence of neural network filter applications for improving diffraction quality. (C-graphite)
-
 The diffraction post-processing algorithm consists of:
 
 1. **Semantic Segmentation** – U-Net separation into classes  
@@ -80,8 +77,8 @@ The diffraction post-processing algorithm consists of:
 
 ## 📊 Results
 
-![Results](./JAC_IMGS/Slide12.png)
-*Figure 7. Results of applying the stack of processing algorithms. (a) - Na2Ca3Al2F14 powder diffraction; (b) - Diffraction after binary segmentation and first U-net filtration; (c) - Resulting diffraction after resolution upscaling and second U-net filtration; (d);(e);(f); - Their corresponding convolutions in d-space.
+![Results](./JAC_IMGS/Slide13.png)
+*Figure 6. Results of applying the stack of processing algorithms. (a) - Na2Ca3Al2F14 powder diffraction; (b) - Diffraction after binary segmentation and first U-net filtration; (c) - Resulting diffraction after resolution upscaling and second U-net filtration; (d);(e);(f); - Their corresponding convolutions in d-space.
 
 - **Noise reduction** in raw diffraction patterns  
 - **Enhanced separation** of weak diffraction peaks  
