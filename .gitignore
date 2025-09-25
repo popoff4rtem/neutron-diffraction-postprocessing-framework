@@ -2,6 +2,11 @@
 
 __pycache__/
 
+models/*.pth
+datasets/*.pkl
+
+diffusion.ipynb
+
 ._resnet_custom.ipynb
 
 models/._entire_model_withoutBeam.pth
