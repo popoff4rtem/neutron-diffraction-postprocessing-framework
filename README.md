@@ -56,7 +56,7 @@ The framework integrates modern convolutional neural network architectures to ad
   - **Crystal type** (categorical embedding)
   - **Beam statistics** (numeric features)  
 - Enhances datasets for training deep models under data scarcity  
-- Metrics: **PSNR = 16.15 dB, SSIM = 0.64, Classifier Accuracy = 0.96**
+- Metrics: **PSNR = 17.213 dB, SSIM = 0.693, Classifier Accuracy = 0.978**
 
 ![Conditional GAN (cGAN)](./JAC_IMGS/Slide3.png)
 *Figure 5. Comparison of the original (left) and generated (right) diffraction patterns for Al, Na2Ca3Al2F14, and Rb powders.
