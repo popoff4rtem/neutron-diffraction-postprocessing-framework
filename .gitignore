@@ -1,0 +1,11 @@
+*.zip
+
+datasets/*.pkl
+models/*.pth
+
+__pycache__/
+
+._resnet_custom.ipynb
+
+models/._entire_model_withoutBeam.pth
+models/._entire_model_withoutBeam_unique.pth
