@@ -2,10 +2,11 @@
 
 __pycache__/
 
-models/*.pth
 datasets/*.pkl
 
 diffusion.ipynb
+diffusion_model.pt
+new_diffusion.ipynb
 
 ._resnet_custom.ipynb
 
